@@ -5,7 +5,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 #import <AtomicSDK/AACStreamContainerActionDelegate.h>
 #import <AtomicSDK/AACStreamContainerHeaderDelegate.h>
