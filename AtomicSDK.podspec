@@ -16,8 +16,8 @@ s.vendored_frameworks = 'iOS/AtomicSDK.xcframework'
 
 s.subspec "SwiftUI" do |sp|
     sp.preserve_paths      = 'SwiftUI/AtomicSwiftUISDK.xcframework'
-    sp.public_header_files = 'SwiftUI/AtomicSwiftUISDK.xcframework/ios-arm64/AtomicSDK.framework/Headers/*.h'
-    sp.source_files        = 'SwiftUI/AtomicSwiftUISDK.xcframework/ios-arm64/AtomicSDK.framework/Headers/*.h'
+    sp.public_header_files = 'SwiftUI/AtomicSwiftUISDK.xcframework/ios-arm64/AtomicSwiftUISDK.framework/Headers/*.h'
+    sp.source_files        = 'SwiftUI/AtomicSwiftUISDK.xcframework/ios-arm64/AtomicSwiftUISDK.framework/Headers/*.h'
     sp.platform            = :ios, '10.0'
 end
 
