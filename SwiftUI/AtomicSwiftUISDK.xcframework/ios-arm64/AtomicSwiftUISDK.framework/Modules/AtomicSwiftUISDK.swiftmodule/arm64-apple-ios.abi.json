@@ -1,0 +1,308 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AtomicSwiftUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AtomicSDK",
+        "printedName": "AtomicSDK",
+        "declKind": "Import",
+        "moduleName": "AtomicSwiftUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtomicSingleCardView",
+        "printedName": "AtomicSingleCardView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(containerId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtomicSingleCardView",
+                "printedName": "AtomicSwiftUISDK.AtomicSingleCardView",
+                "usr": "s:16AtomicSwiftUISDK0A14SingleCardViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AtomicSwiftUISDK0A14SingleCardViewV11containerIdACSS_tcfc",
+            "mangledName": "$s16AtomicSwiftUISDK0A14SingleCardViewV11containerIdACSS_tcfc",
+            "moduleName": "AtomicSwiftUISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_AtomicSingleCardView",
+                "printedName": "AtomicSwiftUISDK._AtomicSingleCardView",
+                "usr": "s:16AtomicSwiftUISDK01_A14SingleCardView33_238F3F3986A9C3070DE2585CB787D184LLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AtomicSwiftUISDK0A14SingleCardViewV4bodyQrvp",
+            "mangledName": "$s16AtomicSwiftUISDK0A14SingleCardViewV4bodyQrvp",
+            "moduleName": "AtomicSwiftUISDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AtomicSingleCardView",
+                    "printedName": "AtomicSwiftUISDK._AtomicSingleCardView",
+                    "usr": "s:16AtomicSwiftUISDK01_A14SingleCardView33_238F3F3986A9C3070DE2585CB787D184LLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AtomicSwiftUISDK0A14SingleCardViewV4bodyQrvg",
+                "mangledName": "$s16AtomicSwiftUISDK0A14SingleCardViewV4bodyQrvg",
+                "moduleName": "AtomicSwiftUISDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16AtomicSwiftUISDK0A14SingleCardViewV",
+        "mangledName": "$s16AtomicSwiftUISDK0A14SingleCardViewV",
+        "moduleName": "AtomicSwiftUISDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AtomicSingleCardView",
+                    "printedName": "AtomicSwiftUISDK._AtomicSingleCardView",
+                    "usr": "s:16AtomicSwiftUISDK01_A14SingleCardView33_238F3F3986A9C3070DE2585CB787D184LLV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AtomicSwiftUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AtomicSDK",
+        "printedName": "AtomicSDK",
+        "declKind": "Import",
+        "moduleName": "AtomicSwiftUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtomicStreamContainer",
+        "printedName": "AtomicStreamContainer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(containerId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtomicStreamContainer",
+                "printedName": "AtomicSwiftUISDK.AtomicStreamContainer",
+                "usr": "s:16AtomicSwiftUISDK0A15StreamContainerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AtomicSwiftUISDK0A15StreamContainerV11containerIdACSS_tcfc",
+            "mangledName": "$s16AtomicSwiftUISDK0A15StreamContainerV11containerIdACSS_tcfc",
+            "moduleName": "AtomicSwiftUISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_AtomicContainerView",
+                "printedName": "AtomicSwiftUISDK._AtomicContainerView",
+                "usr": "s:16AtomicSwiftUISDK01_A13ContainerView33_D4B8274029C09D174757A037745AC659LLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AtomicSwiftUISDK0A15StreamContainerV4bodyQrvp",
+            "mangledName": "$s16AtomicSwiftUISDK0A15StreamContainerV4bodyQrvp",
+            "moduleName": "AtomicSwiftUISDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AtomicContainerView",
+                    "printedName": "AtomicSwiftUISDK._AtomicContainerView",
+                    "usr": "s:16AtomicSwiftUISDK01_A13ContainerView33_D4B8274029C09D174757A037745AC659LLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AtomicSwiftUISDK0A15StreamContainerV4bodyQrvg",
+                "mangledName": "$s16AtomicSwiftUISDK0A15StreamContainerV4bodyQrvg",
+                "moduleName": "AtomicSwiftUISDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16AtomicSwiftUISDK0A15StreamContainerV",
+        "mangledName": "$s16AtomicSwiftUISDK0A15StreamContainerV",
+        "moduleName": "AtomicSwiftUISDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AtomicContainerView",
+                    "printedName": "AtomicSwiftUISDK._AtomicContainerView",
+                    "usr": "s:16AtomicSwiftUISDK01_A13ContainerView33_D4B8274029C09D174757A037745AC659LLV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/eric\/Documents\/Atomic\/action-cards-ios-sdk\/AtomicSwiftUISDK\/AtomicSwiftUISDK\/AtomicSingleCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eric\/Documents\/Atomic\/action-cards-ios-sdk\/AtomicSwiftUISDK\/AtomicSwiftUISDK\/AtomicSingleCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 672,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/eric\/Documents\/Atomic\/action-cards-ios-sdk\/AtomicSwiftUISDK\/AtomicSwiftUISDK\/AtomicSingleCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 16,
+      "value": "\"👇\""
+    },
+    {
+      "filePath": "\/Users\/eric\/Documents\/Atomic\/action-cards-ios-sdk\/AtomicSwiftUISDK\/AtomicSwiftUISDK\/AtomicSingleCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 1281,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/eric\/Documents\/Atomic\/action-cards-ios-sdk\/AtomicSwiftUISDK\/AtomicSwiftUISDK\/AtomicSingleCardView.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 11,
+      "value": "\"AtomicSwiftUISDK.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/eric\/Documents\/Atomic\/action-cards-ios-sdk\/AtomicSwiftUISDK\/AtomicSwiftUISDK\/AtomicStreamContainer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1686,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/eric\/Documents\/Atomic\/action-cards-ios-sdk\/AtomicSwiftUISDK\/AtomicSwiftUISDK\/AtomicStreamContainer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1689,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}
