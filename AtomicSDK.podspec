@@ -13,5 +13,5 @@ s.preserve_paths      = 'iOS/AtomicSDK.xcframework'
 s.public_header_files = 'iOS/AtomicSDK.xcframework/ios-arm64/AtomicSDK.framework/Headers/*.h'
 s.source_files        = 'iOS/AtomicSDK.xcframework/ios-arm64/AtomicSDK.framework/Headers/*.h'
 s.vendored_frameworks = 'iOS/AtomicSDK.xcframework'
-
+s.dependency 'AACCore', '>= 0.1'
 end
