@@ -16,6 +16,6 @@ let package = Package(
         .package(url: "https://github.com/EricAtomic/releaseCoreTest.git", from: "0.1.0"),
     ],
     targets: [
-        .binaryTarget(name: "AtomicSDK", path: "iOS/AtomicSDK.xcframework")
+        .binaryTarget(name: "AtomicSDK", path: "iOS/AtomicSDK.xcframework", dependencies: ["AACCore"])
     ]
 )
