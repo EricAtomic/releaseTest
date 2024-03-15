@@ -19,6 +19,7 @@
 #import <AtomicSDK/AACCardInstance.h>
 #import <AtomicSDK/AACStreamContainerObserverConfiguration.h>
 #import <AtomicSDK/AACSessionCardAction.h>
+#import <AtomicSDK/AACAppearanceCollection.h>
 
 /**
  Handler called whenever a card action returns a result.

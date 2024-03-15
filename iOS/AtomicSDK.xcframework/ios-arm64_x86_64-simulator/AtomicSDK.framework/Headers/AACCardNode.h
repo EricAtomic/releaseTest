@@ -51,7 +51,7 @@
 /**
  An array of buttons held by the node, if any. Buttons are now all hosted in the `AACCardNodeForm` node.
  */
-@property (nonatomic, strong, nonnull, readonly) NSMutableArray* buttons;
+@property (nonatomic, strong, nullable, readonly) NSMutableArray* buttons;
 
 /**
  Whether this node represents a form field that contains buttons.
