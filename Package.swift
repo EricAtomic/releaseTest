@@ -1,5 +1,3 @@
-// swift-tools-version:5.3
-
 import PackageDescription
 
 let package = Package(
@@ -10,12 +8,10 @@ let package = Package(
     products: [
         .library(
             name: "AtomicSDK",
-            targets: ["AtomicSDK", "AACCore"]),
+            targets: ["AtomicSDK"]),
     ],
-    dependencies: [
-    ],
+    dependencies: [],
     targets: [
-        .binaryTarget(name: "AtomicSDK", path: "iOS/AtomicSDK.xcframework"),
-        .binaryTarget(name: "AACCore", path: "core/AACCore.xcframework")
+        .binaryTarget(name: "AtomicSDK", path: "iOS/AtomicSDK.xcframework")
     ]
 )
