@@ -114,7 +114,7 @@
 		</data>
 		<key>AACCardViewText.nib</key>
 		<data>
-		tDSS9nuZKQE2mK7Q0VFiatj6SBE=
+		o/Hz6DJuHTCWPVgH7qwAl6k5RXM=
 		</data>
 		<key>AACCardViewTextInput.nib</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>AACListHeaderView.nib</key>
 		<data>
-		yy838w+xpUtdqQzBYHhJDe2tx9I=
+		PCcAYwttIiWgL5pFVAku62u87eg=
 		</data>
 		<key>AACLoadingSpinnerView.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		7K/L81oat8trDjUv++Oz6Ebmd6c=
+		vJ9jlacTL9syB9zW3/jsTlZryyY=
 		</data>
 		<key>Headers/AACAppearance.h</key>
 		<data>
@@ -298,7 +298,7 @@
 		</data>
 		<key>Headers/AACConfiguration.h</key>
 		<data>
-		dk2XnTtMHAbEzAOuJHpSHBGDNsA=
+		Vyk5rFDEqj6OkRvRph+Oeiui6u4=
 		</data>
 		<key>Headers/AACCustomEvent.h</key>
 		<data>
@@ -370,7 +370,7 @@
 		</data>
 		<key>Headers/AACSession.h</key>
 		<data>
-		yaSXPrwvhid/xZCQ3wRiCMeI9sQ=
+		ovJKmBAA304mUDfKlxkguaicxOs=
 		</data>
 		<key>Headers/AACSessionCardAction.h</key>
 		<data>
@@ -386,7 +386,7 @@
 		</data>
 		<key>Headers/AACSingleCardView.h</key>
 		<data>
-		h0s3qUgveKooQM0mpDARvz5nQYM=
+		/g1ELhLAPE3bg0W4bZ7vrLPvG1Y=
 		</data>
 		<key>Headers/AACStreamContainerActionDelegate.h</key>
 		<data>
@@ -402,7 +402,7 @@
 		</data>
 		<key>Headers/AACStreamContainerViewController.h</key>
 		<data>
-		hfb1Fh2aECi6xe41qhV+c3BmW9k=
+		G599ajMPTVV/tLgy4ExI15N24YU=
 		</data>
 		<key>Headers/AACSubviewTheme.h</key>
 		<data>
@@ -414,7 +414,7 @@
 		</data>
 		<key>Headers/AACSwiftUISession.h</key>
 		<data>
-		Ci8bW8a4UfIi35reB25003goWzA=
+		mpxM8OZeu/9d8YSnAF5ILZtzNhc=
 		</data>
 		<key>Headers/AACTheme.h</key>
 		<data>
@@ -454,7 +454,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DRX7Sgb4DUV947VbQ2IiniMRGZg=
+		V7LY2mkpBDTAdQkrj0CnpZU5yZ8=
 		</data>
 		<key>LICENSE-FontAwesome.txt</key>
 		<data>
@@ -462,7 +462,7 @@
 		</data>
 		<key>LICENSES.html</key>
 		<data>
-		lGYHjSm1j6in3ajV2OsARMPKEbw=
+		1mMZ3Ucj9SkEbQU5VFZQJygExIE=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
@@ -472,9 +472,13 @@
 		<data>
 		SG46tY83z83YWc2U9vc4NMbeRL8=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		L8KEoeSlSmZDTbrf6RH7JoJO7xg=
+		</data>
 		<key>SDKInfo.plist</key>
 		<data>
-		ag+Ucahyjv7yKOSqhXJcE97EQyk=
+		UwQJKL5DAu4ONB/oZhlbIWbXDNo=
 		</data>
 		<key>fontawesome-5-solid.otf</key>
 		<data>
@@ -676,7 +680,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oCuPQI3xw/T7O6g8PZUWfbN1fF5dYjbbvqPWb1IOKm0=
+			KUgxK97L4iQHPGRM3OhlNUmeQf63j1f8n3CXnXJrm8Q=
 			</data>
 		</dict>
 		<key>AACCardViewTextInput.nib</key>
@@ -711,7 +715,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eqvCn8TSEjJCZe6MryVrwF2xISDgE7ybMtTt9aCCMcA=
+			pR/qk4FVzuKhH3jQveqphHGWoUzrU3RRc7XnN4dc/Fo=
 			</data>
 		</dict>
 		<key>AACLoadingSpinnerView.nib</key>
@@ -767,7 +771,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6hQ1XKYgm+SLgaSAz9LAZUqiD7ZeBm8aoPNRheZBtF0=
+			Q3cCLdALyFaFtDt6hW6FZeM4ww5N09rfaV1xjfHEnGc=
 			</data>
 		</dict>
 		<key>Headers/AACAppearance.h</key>
@@ -998,7 +1002,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+K+OZ9M6ymX8K7a5BDO+8UuCM184MyaHowynlOISGMU=
+			A+ervuNmju5WEQqxJ2b6WrP5UaZARJbGX9noSVvvRQo=
 			</data>
 		</dict>
 		<key>Headers/AACCustomEvent.h</key>
@@ -1124,7 +1128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AJKUIpd3AjMWHXk/e+zow1bUEibj/7lz6qxFk8sfCb0=
+			8Ob8+9sS4F3yLkpek/6x1Xrcv2o/vyxvJKBptUuBWfA=
 			</data>
 		</dict>
 		<key>Headers/AACSessionCardAction.h</key>
@@ -1152,7 +1156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r6/3dg2pKS2SXvkD3iECbXT7JeXR9n4/4k87j/qaK0M=
+			xMHXG6PyjGW/3Eud3+BevYtC+482Eg3TQTmvTvJ0pe0=
 			</data>
 		</dict>
 		<key>Headers/AACStreamContainerActionDelegate.h</key>
@@ -1180,7 +1184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			USozZ/Ud48rz0dxBu0XxahEoEY+PTuUWPrj4X9fC6hg=
+			28P6ckeoWyzy0oQBte08YDOGoISF+ZZQk16Q+/dQlFE=
 			</data>
 		</dict>
 		<key>Headers/AACSubviewTheme.h</key>
@@ -1201,7 +1205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pu6OmmPShGqVJClaAvDEnW5wSOaotK0SQ+AoI9hsiws=
+			62wNn6kyl+NCryeJEDpFYW/yaR67w6Aiam5eC4qw9dg=
 			</data>
 		</dict>
 		<key>Headers/AACTheme.h</key>
@@ -1278,7 +1282,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W6gomTJFOjdHbFfEHtJ4YUvWB2MzMnD86fIPYJcJcJc=
+			KdOoCVAg/bZ++3DboQTWSJC1XTujUxIaJ6p5V2/j6y4=
 			</data>
 		</dict>
 		<key>Localizable.strings</key>
@@ -1295,11 +1299,18 @@
 			gAgAYZN30Phk3Fy/Sx5Y7RfGy1C6T5Znmz+qUnvhC6I=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zSJGHqivT0mVzeFKih1Ik1Y7+UbU9TPNZTph+sSRYRc=
+			</data>
+		</dict>
 		<key>SDKInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kRROICanw7OVpT4HprYx+9ronHbeOCAsSkvtpxQ6NYY=
+			tKE/ITGt+UVFKYMDk9rufyKMla7B3YPTNBnLc29fJq0=
 			</data>
 		</dict>
 		<key>fontawesome-5-solid.otf</key>
