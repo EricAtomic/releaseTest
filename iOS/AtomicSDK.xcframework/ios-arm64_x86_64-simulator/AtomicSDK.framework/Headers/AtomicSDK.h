@@ -68,6 +68,7 @@ FOUNDATION_EXPORT const unsigned char AtomicSDKVersionString[];
 #import <AtomicSDK/AACCardNodeStepper.h>
 #import <AtomicSDK/AACCardNodeSwitch.h>
 #import <AtomicSDK/AACCardNodeTextInput.h>
+#import <AtomicSDK/AACCardNodeCustomIcon.h>
 
 #import <AtomicSDK/AACAppearanceCollection.h>
 #import <AtomicSDK/AACAppearance.h>
@@ -82,3 +83,4 @@ FOUNDATION_EXPORT const unsigned char AtomicSDKVersionString[];
 #import <AtomicSDK/AACSubviewTheme.h>
 #import <AtomicSDK/AACAppearanceManager.h>
 #import <AtomicSDK/AACSwiftUISession.h>
+#import <AtomicSDK/AACSVGImage.h>

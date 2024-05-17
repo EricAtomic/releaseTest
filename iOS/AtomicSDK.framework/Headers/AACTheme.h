@@ -128,6 +128,8 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACColor *iconSheetItemActive;
 @property (nonatomic, strong) AACColor *iconListEmptyState;
 @property (nonatomic, strong) AACColor *iconSelectionIndicatorActive;
+@property (nonatomic, strong) AACColor *iconCategory;
+@property (nonatomic, strong) AACColor *iconHeadline;
 
 @property (nonatomic, strong) AACColor *shadowCard;
 @property (nonatomic, strong) AACColor *shadowNavigation;

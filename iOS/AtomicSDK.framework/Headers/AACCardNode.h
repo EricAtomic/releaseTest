@@ -6,6 +6,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AtomicSDK/AACValidator.h>
+#import <AtomicSDK/AACCardNodeCustomIcon.h>
 
 // Type-safe way of returning the name of a property as a string.
 #define AAC_PROPERTY_NAME(name) NSStringFromSelector(@selector(name))
@@ -118,7 +119,14 @@
  Has only a `text` property.
  */
 @interface AACCardNodeHeading1: AACCardNode
+/**
+ An optional icon to render next to the text.
+ */
+@property (nonatomic, nullable) AACCardNodeCustomIcon *customIcon;
 
+/**
+ The headline to display.
+ */
 @property (nonatomic, copy, nonnull) NSString* text;
 
 @end
@@ -139,9 +147,14 @@ typedef NS_ENUM(NSInteger, AACCardButtonType) {
 /// Text to display on the button.
 @property (nonatomic, copy, nonnull) NSString* text;
 
-/// If non-empty, matched against the known icon names from the Font Awesome Pro 5 font.
-@property (nonatomic, copy, nullable) NSString* icon;
+/**
+ An optional icon to render next to the button title.
+ */
+@property (nonatomic, nullable) AACCardNodeCustomIcon *customIcon;
 
+/**
+ Whether it's a primary style button or a secondary style button.
+ */
 @property (nonatomic) AACCardButtonType buttonType;
 
 @end
@@ -182,6 +195,11 @@ typedef NS_ENUM(NSInteger, AACCardButtonType) {
  A node that renders a category title (e.g. 'Leave Request').
  */
 @interface AACCardNodeCategory: AACCardNode
+
+/**
+ An optional icon to render next to the text.
+ */
+@property (nonatomic, nullable) AACCardNodeCustomIcon *customIcon;
 
 /// The title to display.
 @property (nonatomic, copy, nonnull) NSString* text;
