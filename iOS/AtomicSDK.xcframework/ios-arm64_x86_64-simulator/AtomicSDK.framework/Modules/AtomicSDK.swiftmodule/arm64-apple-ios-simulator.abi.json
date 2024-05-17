@@ -7277,37 +7277,30 @@
     {
       "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 2448,
+      "offset": 2457,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 2453,
+      "offset": 2462,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
       "kind": "Array",
-      "offset": 2497,
+      "offset": 2506,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1239,
       "length": 3,
       "value": "\"AtomicSDK.SVG\""
-    },
-    {
-      "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4437,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
@@ -7319,14 +7312,21 @@
     {
       "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 4457,
+      "offset": 4455,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
       "kind": "IntegerLiteral",
-      "offset": 4467,
+      "offset": 4466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ActionCardsSDK\/ActionCardsSDK\/Model\/SVGImage\/SwiftDraw\/Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4476,
       "length": 1,
       "value": "0"
     },

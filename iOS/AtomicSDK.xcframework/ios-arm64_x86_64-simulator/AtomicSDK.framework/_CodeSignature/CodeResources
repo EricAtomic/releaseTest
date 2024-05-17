@@ -374,7 +374,7 @@
 		</data>
 		<key>Headers/AACSVGImage.h</key>
 		<data>
-		tufhba1z9qJCOvfC7FCYkxkt+ic=
+		v38tFtmuM5L6g4YXyYt7V5KksyA=
 		</data>
 		<key>Headers/AACSession.h</key>
 		<data>
@@ -482,15 +482,15 @@
 		</data>
 		<key>Modules/AtomicSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		vJFZ1V5Q23pLzvIdF1EB38V+s0k=
+		MZmsckLLtlYNsk6JOIhnaup9CmU=
 		</data>
 		<key>Modules/AtomicSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		S9nfT9j9WHc5tR1CVILFQEuKRM4=
+		/G03Avhj7gw2Prgzyx2XP5VaS6k=
 		</data>
 		<key>Modules/AtomicSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		IKhbMDphPi2FXk4LZt5oIaIFT7I=
+		domLkebXuJcm1PbHlxMz2KNbFDk=
 		</data>
 		<key>Modules/AtomicSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -510,7 +510,7 @@
 		</data>
 		<key>Modules/AtomicSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		IKhbMDphPi2FXk4LZt5oIaIFT7I=
+		domLkebXuJcm1PbHlxMz2KNbFDk=
 		</data>
 		<key>Modules/AtomicSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1195,7 +1195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KXkGl/dc5dRoGfxBWJ0ytRZ+kXx1owbyMmRROntCKYg=
+			ovV1magZTsJ14s18Xyq+jd46/usB90h9AnqFtTGOELs=
 			</data>
 		</dict>
 		<key>Headers/AACSession.h</key>
@@ -1377,21 +1377,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XRBwKDqVK+J9Dn+namaRgcbSdGUJoeZ34T6FxDscWag=
+			kUPV3BCQKJ9HLmf4YP4kgfYeKahakrAp7bKuh/BZqVM=
 			</data>
 		</dict>
 		<key>Modules/AtomicSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pLTg+HcJrw7nOg4kdek4fJp6bJV/cBYCQ6IOBOjyJ9s=
+			NPMTKLaAIJDu+lBrvkfmBabYYNEXpuYcg+i4ydYrs8g=
 			</data>
 		</dict>
 		<key>Modules/AtomicSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VmHTzqLQ7JTx0Wrlxz962GBCbzI9F5F7QIIGRfYzD+Q=
+			z3TGR6MXYNEfM3LiX2MG1rtRi+RB/xvPuytQ0LFOWiE=
 			</data>
 		</dict>
 		<key>Modules/AtomicSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1426,7 +1426,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VmHTzqLQ7JTx0Wrlxz962GBCbzI9F5F7QIIGRfYzD+Q=
+			z3TGR6MXYNEfM3LiX2MG1rtRi+RB/xvPuytQ0LFOWiE=
 			</data>
 		</dict>
 		<key>Modules/AtomicSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
