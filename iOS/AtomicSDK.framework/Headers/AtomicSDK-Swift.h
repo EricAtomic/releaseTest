@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -299,34 +300,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSData;
+@class UIImage;
 
-SWIFT_CLASS_NAMED("SVG") SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)
+SWIFT_CLASS("_TtC9AtomicSDK18AACSVGSwiftWrapper") SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)
+@interface AACSVGSwiftWrapper : NSObject
++ (UIImage * _Nullable)svgToPdfWithData:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
++ (UIImage * _Nullable)svgToRasteriseWithData:(NSData * _Nonnull)data size:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("SVG")
 @interface SVGImage : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-@class NSData;
-
-SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)
-@interface SVGImage (SWIFT_EXTENSION(AtomicSDK))
-- (NSData * _Nullable)pdfDataObjc SWIFT_WARN_UNUSED_RESULT;
-@end
 
 
-@class UIImage;
-
-SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)
-@interface SVGImage (SWIFT_EXTENSION(AtomicSDK))
-- (UIImage * _Nonnull)rasterize SWIFT_WARN_UNUSED_RESULT;
-@end
 
 
-SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)
-@interface SVGImage (SWIFT_EXTENSION(AtomicSDK))
-- (nullable instancetype)initWithData:(NSData * _Nonnull)data;
-@end
 
 
 

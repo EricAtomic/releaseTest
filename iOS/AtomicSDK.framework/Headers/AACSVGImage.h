@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// SVG image wrapper to convey related data. The parsed UIImage object is only available in iOS 13.0+;
 @interface AACSVGImage : NSObject
 
-- (instancetype __nonnull)init NS_UNAVAILABLE;
-
 /**
  The view box rectangle defined in the SVG image.
  */
@@ -28,7 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly, nullable) UIImage *image API_AVAILABLE(ios(13.0));
 
 /// Create the AACSVGImage object from binary data representing an SVG image.
-///
 /// - Parameters:
 ///   - data: The data representing an SVG image.
 ///   - proposedSize: Proposed image size when generating a Bitmap image. Not used by vector images.
