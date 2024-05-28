@@ -103,6 +103,11 @@ typedef NS_ENUM(NSUInteger, AACTypographyTransform) {
 - (CGFloat)lineHeightValue;
 
 /**
+ The line height multiple defined in Atomic Workbench.
+ */
+- (CGFloat)lineHeightMultiple;
+
+/**
  The transform style used before displaying the text.
  */
 @property (nonatomic, readonly) AACTypographyTransform transform;

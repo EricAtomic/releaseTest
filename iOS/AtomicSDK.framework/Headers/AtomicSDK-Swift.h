@@ -300,14 +300,30 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSData;
 @class UIImage;
+@class NSString;
+@class UIColor;
 
-SWIFT_CLASS("_TtC9AtomicSDK18AACSVGSwiftWrapper") SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)
-@interface AACSVGSwiftWrapper : NSObject
-+ (UIImage * _Nullable)svgToPdfWithData:(NSData * _Nonnull)data SWIFT_WARN_UNUSED_RESULT;
-+ (UIImage * _Nullable)svgToRasteriseWithData:(NSData * _Nonnull)data size:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC9AtomicSDK11AACSVGImage") SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)
+@interface AACSVGImage : NSObject
+/// The view box of the SVG image.
+@property (nonatomic, readonly) CGRect viewBox;
+/// Whether there is only one colour in this SVG file.
+@property (nonatomic, readonly) BOOL isMonoChrome;
+/// The converted UIImage object in the PDF format that renders in vector mode.
+@property (nonatomic, strong) UIImage * _Nullable pdfImage;
+/// Rasterized UIImage object that supports template rendering.
+@property (nonatomic, strong) UIImage * _Nullable rasterizedImage;
+/// Initialize the SVG image presentation with an SVG string.
+/// \param svgString The string representing an SVG image.
+///
+/// \param proposedSize The proposed size of the SVG image. Used if the size specified within the SVG image is bigger, or not specified. Defaults to (20, 20).
+///
+/// \param currentColor The UIColor used to render the <code>currentColor</code> attribute in the SVG image.
+///
+- (nullable instancetype)initWithSvgString:(NSString * _Nonnull)svgString proposedSize:(CGSize)proposedSize currentColor:(UIColor * _Nonnull)currentColor OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -326,7 +342,13 @@ SWIFT_CLASS_NAMED("SVG")
 
 
 
-@class NSString;
+@interface UIColor (SWIFT_EXTENSION(AtomicSDK))
+@property (nonatomic, readonly, copy) NSString * _Nullable rgbaString;
+@property (nonatomic, readonly, copy) NSString * _Nullable hexString;
+@end
+
+
+@class NSData;
 @class NSBundle;
 
 SWIFT_AVAILABILITY(ios_app_extension,introduced=13.0)

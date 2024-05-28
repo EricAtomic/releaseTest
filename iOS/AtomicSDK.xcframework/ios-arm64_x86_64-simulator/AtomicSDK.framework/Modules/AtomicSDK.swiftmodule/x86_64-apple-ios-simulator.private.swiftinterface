@@ -14,3 +14,18 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@available(iOSApplicationExtension 13.0, *)
+@objc public class AACSVGImage : ObjectiveC.NSObject {
+  @objc final public let viewBox: CoreFoundation.CGRect
+  @objc final public let isMonoChrome: Swift.Bool
+  @objc public var pdfImage: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc public var rasterizedImage: UIKit.UIImage? {
+    @objc get
+    @objc set
+  }
+  @objc public init?(svgString: Swift.String, proposedSize: CoreFoundation.CGSize = CGSize(width: 20, height: 20), currentColor: UIKit.UIColor)
+  @objc deinit
+}
