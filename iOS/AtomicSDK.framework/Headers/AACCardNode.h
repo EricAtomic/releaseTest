@@ -52,7 +52,7 @@
 /**
  An array of buttons held by the node, if any. Buttons are now all hosted in the `AACCardNodeForm` node.
  */
-@property (nonatomic, strong, nullable, readonly) NSMutableArray* buttons;
+@property (nonatomic, strong, nullable) NSMutableArray* buttons;
 
 /**
  Whether this node represents a form field that contains buttons.
@@ -95,7 +95,7 @@
 /// The identifying name of this node, used when submitting a value for it.
 @property (nonatomic, copy, nonnull) NSString* name;
 
-/// The stored response value, a handy accessor to the stored default value.
+/// The stored response value, a dynamic property implemented by subclasses and a handy accessor to the stored default value.
 @property (nonatomic, readonly, nullable) id storedResponseValue;
 
 /// Whether the node needs validation, this value defaults to `NO`, which means
@@ -119,6 +119,7 @@
  Has only a `text` property.
  */
 @interface AACCardNodeHeading1: AACCardNode
+
 /**
  An optional icon to render next to the text.
  */
@@ -147,13 +148,16 @@ typedef NS_ENUM(NSInteger, AACCardButtonType) {
 /// Text to display on the button.
 @property (nonatomic, copy, nonnull) NSString* text;
 
+/// If non-empty, matched against the known icon names from the Font Awesome Pro 5 font.
+@property (nonatomic, copy, nullable) NSString* icon DEPRECATED_MSG_ATTRIBUTE("The icon property has been deprecated and will be removed in future releases. Please use customIcon instead.");
+
 /**
  An optional icon to render next to the button title.
  */
 @property (nonatomic, nullable) AACCardNodeCustomIcon *customIcon;
 
 /**
- Whether it's a primary style button or a secondary style button.
+ Whether the button is a primary or secondary button. Primary and secondary buttons are defined in Atomic Workbench and can have different theme properties.
  */
 @property (nonatomic) AACCardButtonType buttonType;
 
@@ -188,6 +192,9 @@ typedef NS_ENUM(NSInteger, AACCardButtonType) {
 
 /// Values to submit along with the data already collected for this form.
 @property (nonatomic, strong, nullable) NSDictionary* values;
+
+/// The name of the submit button.
+@property (nonatomic, copy, nullable) NSString* buttonName;
 
 @end
 
