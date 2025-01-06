@@ -518,7 +518,7 @@
 		</data>
 		<key>ios-arm64/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		OED6Kut3Ne+8i65121kVblaNhIA=
+		lI0cmirY+MFKd4I38kFvrk4ymbE=
 		</data>
 		<key>ios-arm64/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -742,7 +742,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/AtomicSDK</key>
 		<data>
-		GdHw6nMKZ3va2Jbc3Tbv7irUMYE=
+		8tW9gfKUIIe0ebNA5RP/MlndksE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Headers/AACAppearance.h</key>
 		<data>
@@ -1066,11 +1066,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		3GmMYH8+2hPQbo7TGNqmDTJ+Xkw=
+		ltYGQMc5kC0PkDU24Az60LNEQZ8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		NFhdtITg2rJljXcMZ+SJ8Es7o/A=
+		ZN1+p6LAYRVFCK5HAZJOjKv1cj4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -1118,7 +1118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		+QD/vrjCqr7R5fZYqtAtF6k9jhs=
+		+ThA8oBC4nsoCvwbyT07UC5PSzY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/fontawesome-5-solid.otf</key>
 		<data>
@@ -2539,11 +2539,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OED6Kut3Ne+8i65121kVblaNhIA=
+			lI0cmirY+MFKd4I38kFvrk4ymbE=
 			</data>
 			<key>hash2</key>
 			<data>
-			uditFdNnfVKGVgpZgLUBji927zxKNjRA/KwRkngqddE=
+			wLCRMHdUPElDbiOMvUmw2J87UhV2k6TWwRn/FMHY59w=
 			</data>
 		</dict>
 		<key>ios-arm64/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -3155,11 +3155,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GdHw6nMKZ3va2Jbc3Tbv7irUMYE=
+			8tW9gfKUIIe0ebNA5RP/MlndksE=
 			</data>
 			<key>hash2</key>
 			<data>
-			eGRFn+wisJ8oNkyyxYBXcfTvU+CBhFBvbTyu8RzrURI=
+			FQlCuJnDP/7NN5a/jKdmXMdF2/WHpRsRQi4IfocuyvU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Headers/AACAppearance.h</key>
@@ -4046,22 +4046,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3GmMYH8+2hPQbo7TGNqmDTJ+Xkw=
+			ltYGQMc5kC0PkDU24Az60LNEQZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SeRhufIBxMp6dHdk+t2FZ1T+g5qguZ5siyE/wn8poDM=
+			P8DY1EFb3Z6jvc3j6T5K5We2fqRUsFUvD5wiPcxAE+M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NFhdtITg2rJljXcMZ+SJ8Es7o/A=
+			ZN1+p6LAYRVFCK5HAZJOjKv1cj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xr4/LYsUEnOtfxeMLaGZlG29N7khLoASuzf8q3Fmlt0=
+			Vv7smM3NVXV2jHlquooRHNdhtE64RsfpBDXczhAHX14=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Modules/AtomicSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -4189,11 +4189,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+QD/vrjCqr7R5fZYqtAtF6k9jhs=
+			+ThA8oBC4nsoCvwbyT07UC5PSzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vEd5qxsZ+ZRNfT2lzMUFYeoySJnU2iZ+82048mAzw/c=
+			1ke0oaOY7dnMGu04qly74Ni5ujuohtos5sLyi7wbi78=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/fontawesome-5-solid.otf</key>
