@@ -155,6 +155,7 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 
 @property (nonatomic, strong) AACTypography *typographyListTitle;
 @property (nonatomic, strong) AACTypography *typographyCategory;
+@property (nonatomic, strong) AACTypography *typographyCategorySecondary;
 @property (nonatomic, strong) AACTypography *typographyHeadline;
 @property (nonatomic, strong) AACTypography *typographyBody;
 @property (nonatomic, strong) AACTypography *typographyBullet;
